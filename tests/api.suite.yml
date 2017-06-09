@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - \Helper\Api
+        - REST:
+            url: http://yii1.loc.com/index.php
+            depends: PhpBrowser
